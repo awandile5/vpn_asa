@@ -104,7 +104,7 @@ f.close()
 
 
 
-'asa2'
+'asa2 configuration 20.0.0.1'
 net_connect = ConnectHandler(**cisco_asa2)
 net_connect.find_prompt()
 output = net_connect.send_command("show ip add")
